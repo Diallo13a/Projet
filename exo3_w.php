@@ -24,6 +24,7 @@ if (isset($_POST['envoie']))
    else
    {
     $msg="Veuillez saisir un nombre";
+	   echo "Vous avez saisi un nombre".$msg;
    }
     //var_dump($_POST['nombre']);
     
